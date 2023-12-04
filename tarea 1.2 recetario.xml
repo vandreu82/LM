@@ -1,0 +1,210 @@
+<!-- Víctor Manuel Andreu Felipe -->
+<!-- El objeto principal/etiqueta principal del recetario será el elemento recetario que se compondrá de recetas.
+
+Cada receta tendrá un identificador numérico y un nombre de receta. De cada receta se desea guardar el tiempo estimado, una sección de ingredientes y una sección que describa someramente la elaboración. 
+
+Dentro de la sección ingredientes se va a guardar cada ingrediente junto con la cantidad de cada uno así como la unidad de medida que se va a utilizar para cada ingrediente. -->
+
+<recipebook>
+	<recipe>
+		<name>Tortilla de patatas</name>
+		<id>01</id>
+		<time>20 min</time>
+		<ings>
+			<ing>
+				<ingname>Huevos</ingname>
+				<quant>4</quant>
+				<unit>Unidades</unit>
+			</ing>
+			<ing>
+				<ingname>Patatas</ingname>
+				<quant>2</quant>
+				<unit>Unidades</unit>
+			</ing>
+			<ing>
+				<ingname>Aceite</ingname>
+				<quant>150</quant>
+				<unit>Militros</unit>
+			</ing>
+			<ing>
+				<ingname>Sal</ingname>
+				<quant>1</quant>
+				<unit>Pizca</unit>
+			</ing>
+			<ing>
+				<ingname>Pimienta</ingname>
+				<quant>1</quant>
+				<unit>Pizca</unit>
+			</ing>
+		</ings>
+		<desc>Preparar una sartén al fuego con aceite. Freir las patatas cortadas en rodajas a fuego lento con una pizca de sal.
+		 Batir los huevos con una pizca de pimienta. Cuando las patatas estén hechas, mezclarlas en el mismo bol con el huevo, 
+		 remover y verter en la sartén, previo escurrido del aceite. Cuajar, dar la vuelta y terminar de hacer.</desc>
+	</recipe>
+	<recipe>
+		<name>Pollo al curry</name>
+		<id>02</id>
+		<time>1 hora</time>
+		<ings>
+			<ing>
+				<ingname>Pechuga de pollo</ingname>
+				<quant>500</quant>
+				<unit>gr</unit>
+			</ing>
+			<ing>
+				<ingname>Arroz Basmati</ingname>
+				<quant>4</quant>
+				<unit>cacitos</unit>
+			</ing>
+			<ing>
+				<ingname>Cebolla</ingname>
+				<quant>1/2</quant>
+				<unit>Unidad</unit>
+			</ing>
+			<ing>
+				<ingname>Especias varias</ingname>
+				<quant>1</quant>
+				<unit>pizca</unit>
+			</ing>
+			<ing>
+				<ingname>Leche evaporada</ingname>
+				<quant>25</quant>
+				<unit>ml</unit>
+			</ing>
+			<ing>
+				<ingname>Curry</ingname>
+				<quant>1</quant>
+				<unit>pizca</unit>
+			</ing>
+		</ings>
+		<desc>Sofreir la cebolla con un poquito de aceite. Mientras cocer el arroz. Cocinar la pechuga cortada a tacos 
+		sobre la cebolla, junto con las especias y el curry. Verter la nata evaporada y calentar a fuego lento. 
+		Una vez preparado, servir junto con el arroz.</desc>
+	</recipe>
+	<recipe>
+		<name>Patatas asadas</name>
+		<id>03</id>
+		<time>60 minutos</time>
+		<ings>
+			<ing>
+				<ingname>Patatas</ingname>
+				<quant>3</quant>
+				<unit>Unidades</unit>
+			</ing>
+			<ing>
+				<ingname>Aceite</ingname>
+				<quant>50</quant>
+				<unit>ml</unit>
+			</ing>
+			<ing>
+				<ingname>Sal</ingname>
+				<quant>1</quant>
+				<unit>Pizca</unit>
+			</ing>
+			<ing>
+				<ingname>Pimienta</ingname>
+				<quant>1</quant>
+				<unit>Pizca</unit>
+			</ing>
+			<ing>
+				<ingname>Alioli</ingname>
+				<quant>1</quant>
+				<unit>Cacharro</unit>
+			</ing>
+		</ings>
+		<desc>Precalentar el horno a 200º. Preparar una bandeja, pintando con un pincel de aceite sin olvidar las esquinas. 
+		Cortar las patatas a rodajas y colocar en la bandeja bien espaciadas. Practicar 3 cortes en la superficie de cada rodaja. 
+		Salpimentar y cubrir con una fina capa de aceite. Cocinar durante 50 minutos.</desc>
+	</recipe>
+	<recipe>
+		<name>Bocadillo lo-to-ma-que</name>
+		<id>04</id>
+		<time>15 minutos</time>
+		<ings>
+			<ing>
+				<ingname>Pan</ingname>
+				<quant>1/2</quant>
+				<unit>Barra</unit>
+			</ing>
+			<ing>
+				<ingname>Lomo</ingname>
+				<quant>3</quant>
+				<unit>Filetes</unit>
+			</ing>
+			<ing>
+				<ingname>Tomate</ingname>
+				<quant>1/2</quant>
+				<unit>Unidad</unit>
+			</ing>
+			<ing>
+				<ingname>Mayonesa</ingname>
+				<quant>10</quant>
+				<unit>ml</unit>
+			</ing>
+			<ing>
+				<ingname>Queso</ingname>
+				<quant>3</quant>
+				<unit>Lonchas</unit>
+			</ing>
+			<ing>
+				<ingname>Aceite</ingname>
+				<quant>5</quant>
+				<unit>ml</unit>
+			</ing>
+		</ings>
+		<desc>Tostar el pan durante 3 minutos. Rallar medio tomate. Cocinar los lomos con unas gotitas de aceite. Una vez tostado el pan, 
+		colocar abierto en un plato o bandeja. Esparcir el tomate rallado por el pan, poner sobre este el lomo calentito y las lonchas de queso encima para
+		que se fundan un poco. Finalizar con un chorro de mayonesa y cerrar el pan.</desc>
+	</recipe>
+	<recipe>
+		<name>Caldo con pelotas</name>
+		<id>05</id>
+		<time>2 horas y media</time>
+		<ings>
+			<ing>
+				<ingname>Apio</ingname>
+				<quant>1</quant>
+				<unit>rama</unit>
+			</ing>
+			<ing>
+				<ingname>Puerro</ingname>
+				<quant>1</quant>
+				<unit>Unidad</unit>
+			</ing>
+			<ing>
+				<ingname>Zanahoria</ingname>
+				<quant>2</quant>
+				<unit>Unidad</unit>
+			</ing>
+			<ing>
+				<ingname>Caparazón de pollo</ingname>
+				<quant>1</quant>
+				<unit>Unidad</unit>
+			</ing>
+			<ing>
+				<ingname>Escaleta de ternera</ingname>
+				<quant>100</quant>
+				<unit>gr</unit>
+			</ing>
+			<ing>
+				<ingname>Sal</ingname>
+				<quant>1</quant>
+				<unit>Pizca</unit>
+			</ing>
+			<ing>
+				<ingname>Colorante</ingname>
+				<quant>1</quant>
+				<unit>Pizca</unit>
+			</ing>
+			<ing>
+				<ingname>Masa de pelotas</ingname>
+				<quant>500</quant>
+				<unit>gr</unit>
+			</ing>
+		</ings>
+		<desc>En una cacuela u olla grande echar el caparazón, la escaleta, y, cortados en rodajas, el puerro
+		el apio y las zanahorias, junto con una pizca de sal y un poco de colorante. Cubrir de agua y llevar a ebullición.
+		Dejar una  hora a fuego lento. Llenar un plato con harina e ir formando bolas con la masa de pelotas de unos 5 cm de diametro sobre la harina.
+		Separar el caldo del resto de ingredientes y cocinar con este las pelotas durante otra hora a fuego lento.</desc>
+	</recipe>
+</recipebook>

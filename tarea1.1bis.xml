@@ -1,0 +1,45 @@
+<!-- Víctor Manuel Andreu Felipe -->
+<!-- Diccionario:  shop, category, subcategory, price, availability, shipment
+La tienda tiene los productos dividios en categorias con un nombre, que a su vez tienen subcategorias con nombre y cada  producto tiene un precio, disponibilidad y tiempo de entrega-->
+
+<shop>
+	<category>
+		<catname>Periféricos</catname>
+		<subcat>
+			<subcatname>Webcams</subcatname>
+			<product>
+				<prodname>Logitech W-321</prodname>
+				<price>50 €</price>
+				<availability>Disponible</availability>
+				<shipment>48-72 horas</shipment>
+			</product>
+			<product>
+				<prodname>Logitech Z-14</prodname>
+				<price>150 €</price>
+				<availability>No Disponible</availability>
+				<shipment>1 semana</shipment>
+			</product>
+		</subcat>
+		<subcat>
+			<subcatname>Teclados</subcatname>
+			<product>
+				<prodname>Red dragon Kahama-500</prodname>
+				<price>80 €</price>
+				<availability>Disponible</availability>
+				<shipment>48-72 horas</shipment>
+			</product>
+		</subcat>
+	</category>	
+	<category>
+		<catname>Almacenamiento</catname>
+		<subcat>
+			<subcatname>Discos Externos</subcatname>
+			<product>
+				<prodname>Western Digital 3TB</prodname>
+				<price>140 €</price>
+				<availability>Disponible</availability>
+				<shipment>48-72 horas</shipment>
+			</product>
+		</subcat>
+	</category>
+</shop>

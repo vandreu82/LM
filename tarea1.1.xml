@@ -1,0 +1,53 @@
+<!-- Víctor Manuel Andreu Felipe -->
+<!-- Diccionario: 	games, system, genre, name, year, pg .
+Los juegos se clasifican por plataformas con un nombre. Cada plataforma tiene uno o varios juegos. Cada juego tiene un un nombre, genero, año de lanzamiento y un PG -->
+
+<games>
+	<system>
+		<sysname>PC</sysname>
+		<game>
+			<name>Baldurs Gate 3</name>
+			<genre>cRPG</genre>
+			<year>2023</year>
+			<PG>18</PG>
+		</game>
+		<game>
+			<name>No Man Sky</name>
+			<genre>Survival</genre>
+			<year>2017</year>
+			<PG>13</PG>
+		</game>
+		<game>
+			<name>Terraria</name>
+			<genre>sRPG</genre>
+			<year>2014</year>
+			<PG>13</PG>
+		</game>
+	</system>
+	<system>
+		<sysname>PS5</sysname>
+		<game>
+			<name>Horizon Zero Dawn</name>	
+			<genre>Adventure</genre>
+			<year>2020</year>
+			<PG>13</PG>
+		</game>
+		<game>
+			<name>God of War: Ragnarok</name>
+			<genre>Hack and Slash</genre>
+			<year>2023</year>
+			<PG>18</PG>
+		</game>
+	</system>
+	<system>
+		<sysname>XBOX</sysname>
+		<game>
+			<name>Starfield</name>	
+			<genre>RPG</genre>
+			<year>2023</year>
+			<PG>13</PG>
+		</game>
+	</system>
+</games>
+	
+

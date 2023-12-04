@@ -1,0 +1,206 @@
+{
+	"recipebook": {
+		"recipe": [
+			{
+				"name": "Tortilla de patatas",
+				"id": "01",
+				"time": "20 min",
+				"ings": {
+					"ing": [
+						{
+							"ingname": "Huevos",
+							"quant": "4",
+							"unit": "Unidades"
+						},
+						{
+							"ingname": "Patatas",
+							"quant": "2",
+							"unit": "Unidades"
+						},
+						{
+							"ingname": "Aceite",
+							"quant": "150",
+							"unit": "Militros"
+						},
+						{
+							"ingname": "Sal",
+							"quant": "1",
+							"unit": "Pizca"
+						},
+						{
+							"ingname": "Pimienta",
+							"quant": "1",
+							"unit": "Pizca"
+						}
+					]
+				},
+				"desc": "Preparar una sartén al fuego con aceite. Freir las patatas cortadas en rodajas a fuego lento con una pizca de sal. Batir los huevos con una pizca de pimienta. Cuando las patatas estén hechas, mezclarlas en el mismo bol con el huevo, remover y verter en la sartén, previo escurrido del aceite. Cuajar, dar la vuelta y terminar de hacer."
+			},
+			{
+				"name": "Pollo al curry",
+				"id": "02",
+				"time": "1 hora",
+				"ings": {
+					"ing": [
+						{
+							"ingname": "Pechuga de pollo",
+							"quant": "500",
+							"unit": "gr"
+						},
+						{
+							"ingname": "Arroz Basmati",
+							"quant": "4",
+							"unit": "cacitos"
+						},
+						{
+							"ingname": "Cebolla",
+							"quant": "1/2",
+							"unit": "Unidad"
+						},
+						{
+							"ingname": "Especias varias",
+							"quant": "1",
+							"unit": "pizca"
+						},
+						{
+							"ingname": "Leche evaporada",
+							"quant": "25",
+							"unit": "ml"
+						},
+						{
+							"ingname": "Curry",
+							"quant": "1",
+							"unit": "pizca"
+						}
+					]
+				},
+				"desc": "Sofreir la cebolla con un poquito de aceite. Mientras cocer el arroz. Cocinar la pechuga cortada a tacos sobre la cebolla, junto con las especias y el curry. Verter la nata evaporada y calentar a fuego lento. Una vez preparado, servir junto con el arroz."
+			},
+			{
+				"name": "Patatas asadas",
+				"id": "03",
+				"time": "60 minutos",
+				"ings": {
+					"ing": [
+						{
+							"ingname": "Patatas",
+							"quant": "3",
+							"unit": "Unidades"
+						},
+						{
+							"ingname": "Aceite",
+							"quant": "50",
+							"unit": "ml"
+						},
+						{
+							"ingname": "Sal",
+							"quant": "1",
+							"unit": "Pizca"
+						},
+						{
+							"ingname": "Pimienta",
+							"quant": "1",
+							"unit": "Pizca"
+						},
+						{
+							"ingname": "Alioli",
+							"quant": "1",
+							"unit": "Cacharro"
+						}
+					]
+				},
+				"desc": "Precalentar el horno a 200º. Preparar una bandeja, pintando con un pincel de aceite sin olvidar las esquinas. Cortar las patatas a rodajas y colocar en la bandeja bien espaciadas. Practicar 3 cortes en la superficie de cada rodaja. Salpimentar y cubrir con una fina capa de aceite. Cocinar durante 50 minutos."
+			},
+			{
+				"name": "Bocadillo lo-to-ma-que",
+				"id": "04",
+				"time": "15 minutos",
+				"ings": {
+					"ing": [
+						{
+							"ingname": "Pan",
+							"quant": "1/2",
+							"unit": "Barra"
+						},
+						{
+							"ingname": "Lomo",
+							"quant": "3",
+							"unit": "Filetes"
+						},
+						{
+							"ingname": "Tomate",
+							"quant": "1/2",
+							"unit": "Unidad"
+						},
+						{
+							"ingname": "Mayonesa",
+							"quant": "10",
+							"unit": "ml"
+						},
+						{
+							"ingname": "Queso",
+							"quant": "3",
+							"unit": "Lonchas"
+						},
+						{
+							"ingname": "Aceite",
+							"quant": "5",
+							"unit": "ml"
+						}
+					]
+				},
+				"desc": "Tostar el pan durante 3 minutos. Rallar medio tomate. Cocinar los lomos con unas gotitas de aceite. Una vez tostado el pan, colocar abierto en un plato o bandeja. Esparcir el tomate rallado por el pan, poner sobre este el lomo calentito y las lonchas de queso encima paraque se fundan un poco. Finalizar con un chorro de mayonesa y cerrar el pan."
+			},
+			{
+				"name": "Caldo con pelotas",
+				"id": "05",
+				"time": "2 horas y media",
+				"ings": {
+					"ing": [
+						{
+							"ingname": "Apio",
+							"quant": "1",
+							"unit": "rama"
+						},
+						{
+							"ingname": "Puerro",
+							"quant": "1",
+							"unit": "Unidad"
+						},
+						{
+							"ingname": "Zanahoria",
+							"quant": "2",
+							"unit": "Unidad"
+						},
+						{
+							"ingname": "Caparazón de pollo",
+							"quant": "1",
+							"unit": "Unidad"
+						},
+						{
+							"ingname": "Escaleta de ternera",
+							"quant": "100",
+							"unit": "gr"
+						},
+						{
+							"ingname": "Sal",
+							"quant": "1",
+							"unit": "Pizca"
+						},
+						{
+							"ingname": "Colorante",
+							"quant": "1",
+							"unit": "Pizca"
+						},
+						{
+							"ingname": "Masa de pelotas",
+							"quant": "500",
+							"unit": "gr"
+						}
+					]
+				},
+				"desc": "En una cacuela u olla grande echar el caparazón, la escaleta, y, cortados en rodajas, el puerroel apio y las zanahorias, junto con una pizca de sal y un poco de colorante. Cubrir de agua y llevar a ebullición.Dejar una  hora a fuego lento. Llenar un plato con harina e ir formando bolas con la masa de pelotas de unos 5 cm de diametro sobre la harina.Separar el caldo del resto de ingredientes y cocinar con este las pelotas durante otra hora a fuego lento."
+			}
+		]
+	}
+}
