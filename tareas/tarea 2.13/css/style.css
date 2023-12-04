@@ -1,0 +1,47 @@
+#fondo {
+	background-image: url("stars.jpg");
+	background-repeat: repeat;
+	background-size: 20%;
+}
+
+#ppal {
+	
+	width: 60%;
+	margin: 0 auto;
+	background: #84b6f4;
+	color: black;
+	font-family:sans-serif;
+}
+
+.estrella {
+	background-image: url("estrella.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+}
+#cabe {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	background: #84b6f4;
+	color: white;
+}
+
+
+.nombre {
+	background: royalblue;
+	color: white;	
+	padding: 10px 20px;
+	text-align: right;
+}
+.fila {
+	display: flex;
+	flex-direction: row;
+	padding: 7px;
+	height: 33px;
+}
+
+#contenido {
+	padding: 30px;
+}

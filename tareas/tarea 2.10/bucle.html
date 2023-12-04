@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Documento para utiliza inner html</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+
+			function bucle() 
+			{
+				var texto = document.getElementById("texto").value;
+				var parrafo = document.getElementById("vacio");
+				
+				if (texto == null || isNaN(texto) || /^\s+$/.test(texto))
+				{
+					alert("Debe introducir un número");
+				}
+
+				for (let i = 0; i <= texto; i++) 
+				{
+					parrafo.innerHTML = parrafo.innerHTML + "<br>" + i;
+				}
+
+
+				/*var parrafo = document.getElementById("vacio");
+				parrafo.innerHTML = texto;*/
+
+			}
+		</script>
+
+		<form>
+			<label>Introduce el numero máximo a mostrar:</label>
+			<input type="text" id="texto" />
+			<input type="button" value="Enviar" onclick="bucle()" />
+		</form>
+		<p id="vacio"></p>
+	</body>
+</html>

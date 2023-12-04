@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Documento para utiliza inner html</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+
+			function rellena_texto() 
+			{
+				var texto = document.getElementById("texto").value;
+				var parrafo = document.getElementById("vacio");
+				parrafo.innerHTML = texto;
+
+			}
+		</script>
+
+		<form>
+			<label>Introduce texto a mostrar:</label>
+			<input type="text" id="texto" />
+			<input type="button" value="Enviar" onclick="rellena_texto()" />
+		</form>
+		<p id="vacio"></p>
+	</body>
+</html>

@@ -1,0 +1,70 @@
+#fondo {
+	background-image: url("miespanita.jpg");
+	background-repeat: repeat;
+	background-size: 20%;
+}
+
+#ppal {
+	width: 60%;
+	margin: 0 auto;
+	background: #FABD00;
+	color: black;
+	font-family:sans-serif;
+}
+
+
+header, footer {
+	background: #AD1519;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+button {
+	padding: 5px 10px;
+}
+
+button:hover {
+	background: salmon;
+	cursor: pointer;
+}
+
+input, button {
+	border: none;
+  	border-radius: 5%;
+ }
+
+#inputs {
+	width: 50%;
+	padding: 20px;
+	border-right: 1px solid;
+}
+
+/*#outputs
+{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+*/
+
+ .numero {
+ 	padding: 20px;
+ }
+
+ #reja {
+	display: grid;
+  	grid-template-columns: auto auto;
+ }
+

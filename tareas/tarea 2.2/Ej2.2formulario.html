@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<lang ="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>A rellenar por el candidato</title>
+</head>
+
+<body>
+	<h1>Datos del candidato</h1>
+	<hr/>
+	<form>
+		Nombre
+		<br/>
+		<input type="text" name="nombre" />
+		<br/>
+		Apellidos
+		</br>
+		<input type="text" name="apellidos" />
+		<br/>
+		<br/>
+		<label>Fecha de nacimiento</label>
+		<input type="date" name="fecha"/>
+		<br/>
+		<br/>
+		Foto de la persona candidata
+		<br/>
+		<Input type="image" name="foto"/>
+		<br/>
+		<br/>
+		Dirección
+		<br/>
+		<input type="text" name="municipio" placeholder="Municipio" />
+		<br/>
+		<input type="text" name="tipovia" placeholder="Tipo de vía" />
+		<br/>
+		<input type="text" name="via" placeholder="Vía" />
+		<br/>
+		<input type="text" name="numero" placeholder="Número" />
+		<br/>
+		<input type="text" name="codigopostal" placeholder="CP" />
+		<br/>
+		<br/>
+		Teléfono
+		<br/>
+		<input type="tel">
+		<br/>
+		<br/>
+		Presentación
+		<br/>
+		<textarea name="presentacion" placeholder="Maximo 300 caracteres" rows="10" cols="50" maxlength="300"></textarea>
+		<br/><br/>
+		<hr/>
+		<p>Área de experiencia</p>
+		<input type ="checkbox" name="experiencia" value="hardeware" id="hardware"/>
+		<label for="hardware">Hardware</label>
+		<br/>
+		<input type ="checkbox" name="experiencia" value="administracionwindows" id="administracionwindows"/>
+		<label for="administracionwindows">Administración de Sistemas Windows</label>
+		<br/>
+		<input type ="checkbox" name="experiencia" value="redes" id="redes"/>
+		<label for="redes">Redes</label>
+		<br/>
+		<input type ="checkbox" name="experiencia" value="php" id="php"/>
+		<label for="php">Desarrollo PHP</label>
+		<br/>
+		<input type ="checkbox" name="experiencia" value="html" id="html"/>
+		<label for="html">HTML5</label>
+		<br/>
+		<input type ="checkbox" name="experiencia" value="bootstrap" id="bootstrap"/>
+		<label for="bootstrap">Bootstrap</label>
+		<br/>
+		<br/>
+		<label>Carné de conducir</label>
+		<br/>
+		<select name="carne">
+			<option value=""></option>
+			<option value="si">Si</option>
+			<option value="No">No</option>
+		</select>
+		<br/><br/>
+		Currículum
+		<br/>
+		<input type="file" name="curriculumPDF" />
+		<br/>
+		<br/>
+		<br/>
+		<hr/>
+		Aceptación de condiciones de uso y normativas legales
+		<br/>
+		<textarea name="condicionesdeuso" placeholder="Se compromete a :
+		FP - Soy programador
+		asdsahhre kmasdiomjnn dehoi ui   hds
+		ddsadjh,kkpokññkjdsad
+		dfsdjfnkjnZ rtebbhdasdasdsadu
+		$function() {
+				 $('label') modificacion de la consulta del formulario" rows="10" cols="50" readonly></textarea>
+		<br/>
+		<input type="radio" value="acepto" name="condicionesynormativa" id="acepto"/>
+		<label for="acepto">Confirmo que he leído y acepto las condiciones de uso y normativas legales</label>
+		<br/>
+		<input type="radio" value="noacepto" name="condicionesynormativa" id="noacepto" checked/>
+		<label for="noacepto">No acepto las condiciones de uso y normativas legales</label>
+		<br/>
+		
+		<input type="submit" value="Enviar"/>
+		<input type="reset" value="Limpiar"/>
+	</form>
+
+</body>
+
+</html>
