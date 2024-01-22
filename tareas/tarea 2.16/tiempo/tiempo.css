@@ -1,0 +1,28 @@
+.cabe {
+     color: darkblue;
+}
+ .local {
+     color: blue;
+}
+ .dia-semana {
+     font-weight: bold;
+}
+ .maxima {
+     margin-left: 30px;
+     font-weight: bold;
+     color: orange;
+}
+ .minima {
+     margin-left: 30px;
+     font-weight: bold;
+     color: blue;
+}
+ .hoy {
+     font-size: 200%;
+}
+ .icono {
+     margin-left: 50px;
+}
+ .jumbotron {
+     background-color: #d2f2fa;
+}
